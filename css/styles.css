@@ -1,0 +1,68 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#calc-container{
+  width: 350px;
+  height: 500px;
+  background-color: rgb(76, 154, 160);
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+#display{
+  display: inline-block;
+  height: 70px;
+  width: 93%;
+  margin: 5px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+p{
+  margin: 0;
+  color: white;
+  padding: 2px;
+  font-weight: 700;
+}
+
+.btn{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 5%;
+  margin: 5px;
+  box-shadow: 0 3px #454a51;
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+}
+
+.wide-btn{
+  width: 155px;
+}
+
+#delete-btn{
+  background-color: #f1560e;
+  box-shadow: 0 3px #aa4b1f;
+}
+
+#equals-btn{
+  background-color: #54a843;
+  box-shadow: 0 3px #3c7531;
+}
+
+.black{
+  background-color: black;
+}
+
+.gray{
+  background-color: #383d42;
+  box-shadow: 0 3px #545c63;
+}
